@@ -15,7 +15,7 @@
 
 }
 /*ESTILO DE CAMPO DE TEXTO id*/
-#id_Candidato{
+#id_Candidato_Chikito{
     margin: 5px;
     height: 20px;
     border: 1px solid rgb(140, 0, 255);
@@ -23,7 +23,7 @@
 
 }
 /*ESTILO DE CAMPO DE TEXTO nombre candidato*/
-#Nombre_Candidato{
+#Nombre_tu_Candidato{
     margin: 5px;
     height: 20px;
     border: 1px solid rgb(140, 0, 255);
@@ -48,7 +48,7 @@
 
 }
 /*CAMPOS DE TEXTO id candidato votaciones*/
-#texto_Indicaciones2{
+#id_Candidato_votaciones{
     margin: 5px;
     height: 20px;
     border: 1px solid rgb(140, 0, 255);
@@ -64,6 +64,35 @@
      cursor: pointer;/*ESTA ES LA SUPER MANO*/
 
 }
+/*div ESTILO BOTONES ver candidatos y ver votaciones*/
+#div_verCandidatos_Votaciones{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+/*ESTILO BOTON ver candidatos*/
+#boton_verCandidatos{
+    margin: 10px;
+    height: 30px;
+    border-color: rgb(252, 136, 58);
+    background-color: rgb(14, 171, 182);
+    color:rgb(255, 255, 255);
+     cursor: pointer;/*ESTA ES LA SUPER MANO*/
+
+
+}
+/*ESTILO BOTON ver votaciones*/
+#boton_verVotaciones{  
+    border-color: rgb(252, 136, 58);
+    height: 30px;
+    background-color: rgb(14, 171, 182);
+    color:rgb(255, 255, 255);
+     cursor: pointer;/*ESTA ES LA SUPER MANO*/
+
+}
+
+
 
 
 
